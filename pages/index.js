@@ -65,8 +65,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Andrea is an ingeneer student and a junior developer based in Bordeaux with a
-          passion for building digital services/stuff he wants. He has a knack in order to find
-          way to solv real-life problems with code. When not online, he loves
+          passion for building digital services/stuff he wants. He has a knack in finding
+          way to solve real-life problems with code. When not online, he loves
           making photography and judo.
         </Paragraph>
         <Box align="center" my={4}>
