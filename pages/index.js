@@ -71,7 +71,6 @@ const Home = () => (
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera.
-
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -143,13 +142,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/aerdnasan/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @craftzdog
+                @aerdnasan
               </Button>
             </Link>
           </ListItem>
