@@ -162,13 +162,6 @@ const Home = () => (
           >
             My YouTube channel
           </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
         </SimpleGrid>
 
         <Box align="center" my={4}>
