@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Andrea Miele
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Photograph)</p>
+          <p>Digital Craftsman ( Artist / Developer / Photograph )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -66,7 +66,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Andrea is an ingeneer student and a junior developer based in Bordeaux with a
+          Andrea is an ingeener student and a junior developer based in Bordeaux with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -127,18 +127,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @inkdrop_app (English)
+                @andreamiele
               </Button>
             </Link>
           </ListItem>
@@ -149,7 +138,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @craftzdog (日本語)
+                @aerdnasan
               </Button>
             </Link>
           </ListItem>
