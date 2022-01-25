@@ -18,7 +18,7 @@ const VoxelDog = () => {
       new THREE.Vector3(
           20 ,
           10,
-          50
+          20
       )
   )
   const [scene] = useState(new THREE.Scene())
