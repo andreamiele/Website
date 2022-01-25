@@ -110,4 +110,4 @@ const Navbar = props => {
   )
 }
 
-export default <Navbar></Navbar>
+export default Navbar
