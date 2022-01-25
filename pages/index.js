@@ -156,7 +156,7 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com/channel/UC5Y1BlS4uIwF-a8BcRB_LFQ"
             title="Dev as Life"
             thumbnail={thumbYouTube}
           >
