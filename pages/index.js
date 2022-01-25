@@ -53,7 +53,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/takuya.jpg"
+            src="/images/takuya.jpeg"
             alt="Profile image"
           />
         </Box>
