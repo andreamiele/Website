@@ -103,10 +103,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          {/*<Link href="https://illust.odoruinu.net/" target="_blank">
             Drawing
-          </Link>
-          ,
+          </Link> */}
+
             Photography
           , Machine Learning
         </Paragraph>
