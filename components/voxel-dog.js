@@ -18,7 +18,7 @@ const VoxelDog = () => {
       new THREE.Vector3(
           20 ,
           10,
-          20
+          50
       )
   )
   const [scene] = useState(new THREE.Scene())
@@ -60,7 +60,7 @@ const VoxelDog = () => {
           scale,
           -scale,
           0.01,
-          25
+          5000
       )
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
