@@ -162,6 +162,13 @@ const Home = () => (
           >
             My YouTube channel
           </GridItem>
+          <GridItem
+              href="https://www.youtube.com/channel/UC5Y1BlS4uIwF-a8BcRB_LFQ"
+              title="Dev as Life"
+              thumbnail={thumbYouTube}
+          >
+            My YouTube channel
+          </GridItem>
         </SimpleGrid>
 
         <Box align="center" my={4}>
