@@ -64,9 +64,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Andrea is an ingeneer student and a junior developer based in Bordeaux with a
-          passion for building digital services/stuff he wants. He has a knack in finding
-          way to solve real-life problems with code. When not online, he loves
+          I am an ingeneer student in cognitive and computer science based in Bordeaux with a
+          passion for building digital services/stuff. I have a knack in finding
+          way to solve real-life problems with code. When not online, I love
           making photography and judo.
         </Paragraph>
         <Box align="center" my={4}>
@@ -114,8 +114,7 @@ const Home = () => (
             Drawing
           </Link> */}
 
-            Photography
-          , Machine Learning
+            Photography, Machine Learning, Judo
         </Paragraph>
       </Section>
 
