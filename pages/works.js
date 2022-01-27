@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import eteThumb from '../public/images/works/ete.png'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 {/*import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -29,7 +29,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          *<WorkGridItem
+          <WorkGridItem
             id="NewEDT"
             title="NewEDT"
             thumbnail={thumbWalknote}
@@ -42,8 +42,8 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="ete"
-            title="ete"
-            thumbnail={thumbFourPainters}
+            title="ETE"
+            thumbnail={eteThumb}
           >
             Creation of the front-end and one of the games in Javascript for a project aiming to create serious games in order to improve
             participants&apos self-esteem.
