@@ -76,6 +76,7 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
+
       </Section>
 
       <Section delay={0.2}>
@@ -95,6 +96,13 @@ const Home = () => (
           Engineer student in ENSC - Bordeaux.
         </BioSection>
       </Section>
+      <Box align="center" my={4}>
+        <NextLink href="public/images/contents/cv.pdf">
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            CV
+          </Button>
+        </NextLink>
+      </Box>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
