@@ -3,11 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbdysc from '../public/images/works/dyscalculia.png'
+import thumbInp from '../public/images/works/logoInp.png'
 import eteThumb from '../public/images/works/ete.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbDemineur from '../public/images/works/Demineur.png'
+import thumbCrowd from '../public/images/works/crowd.jpeg'
 {/*import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
@@ -24,7 +24,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
 
-          <WorkGridItem id="Démineur" title="Démineur" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="Démineur" title="Démineur" thumbnail={thumbDemineur}>
             University project on a C# minesweeper code
           </WorkGridItem>
         </Section>
@@ -32,11 +32,11 @@ const Works = () => (
           <WorkGridItem
             id="NewEDT"
             title="NewEDT"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbInp}
           >
           Site that includes information from the Bordeaux INP ADE timetable, while facilitating access and
           by improving the layout - In progress.
-          </WorkGridItem>*
+          </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
@@ -50,12 +50,12 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="ilesauxfractions" thumbnail={thumbMenkiki} title="Ile Aux Fractions">
+          <WorkGridItem id="ilesauxfractions" thumbnail={thumbdysc} title="Ile Aux Fractions">
             Game on Unity aimed at helping students with dyscalculia learn fractions.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="crowd2D" thumbnail={thumbMenkiki} title="Crowd 2D">
+          <WorkGridItem id="crowd2D" thumbnail={thumbCrowd} title="Crowd 2D">
             Crowd movement simulator in Python, in 2D with a map creator.
           </WorkGridItem>
         </Section>
