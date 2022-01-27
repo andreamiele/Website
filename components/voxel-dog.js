@@ -12,6 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
+
   const [_camera, setCamera] = useState()
   const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
   const [initialCameraPosition] = useState(
@@ -42,9 +43,12 @@ const VoxelDog = () => {
       const scH = container.clientHeight
 
       const renderer = new THREE.WebGLRenderer({
+
         antialias: true,
         alpha: true
       })
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(scW, scH)
       renderer.outputEncoding = THREE.sRGBEncoding
@@ -76,8 +80,8 @@ const VoxelDog = () => {
       setControls(controls)
 
       loadGLTFModel(scene, '/dog.glb', {
-        receiveShadow: false,
-        castShadow: false
+        receiveShadow: true,
+        castShadow: true
       }).then(() => {
         animate()
         setLoading(false)
