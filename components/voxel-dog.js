@@ -71,7 +71,7 @@ const VoxelDog = () => {
       setCamera(camera)
       camera.zoom=0.2
       camera.updateProjectionMatrix()
-      const ambientLight = new THREE.AmbientLight(0xcccccc, 3)
+      const ambientLight = new THREE.AmbientLight(0xcccccc, 0.5)
       scene.add(ambientLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
