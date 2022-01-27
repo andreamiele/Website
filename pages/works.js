@@ -1,9 +1,10 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-{/* import { WorkGridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+{/*
 import thumbWalknote from '../public/images/works/walkno te_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
@@ -17,41 +18,46 @@ const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          {/*<WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
-          </WorkGridItem>*/}
+
+          <WorkGridItem id="Démineur" title="Démineur" thumbnail={thumbInkdrop}>
+            University project on a C# minesweeper code
+          </WorkGridItem>
         </Section>
         <Section>
-          {/*<WorkGridItem
-            id="walknote"
-            title="walknote"
+          *<WorkGridItem
+            id="NewEDT"
+            title="NewEDT"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
-          </WorkGridItem>*/}
+          Site that includes information from the Bordeaux INP ADE timetable, while facilitating access and
+          by improving the layout - In progress.
+          </WorkGridItem>*
         </Section>
 
         <Section delay={0.1}>
-          {/*<WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+          <WorkGridItem
+            id="ete"
+            title="ete"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>*/}
+            Creation of the front-end and one of the games in Javascript for a project aiming to create serious games in order to improve
+            participants&apos self-esteem.
+          </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          {/*<WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>*/}
+          <WorkGridItem id="ilesauxfractions" thumbnail={thumbMenkiki} title="Ile Aux Fractions">
+            Game on Unity aimed at helping students with dyscalculia learn fractions.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="crowd2D" thumbnail={thumbMenkiki} title="Crowd 2D">
+            Crowd movement simulator in Python, in 2D with a map creator.
+          </WorkGridItem>
         </Section>
       </SimpleGrid>
 
