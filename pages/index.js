@@ -97,7 +97,7 @@ const Home = () => (
         </BioSection>
       </Section>
       <Box align="center" my={4}>
-        <NextLink href="public/images/contents/cv.pdf">
+        <NextLink href="public/images/contents/cv.pdf" download>
           <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
             CV
           </Button>
