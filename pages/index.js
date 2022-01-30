@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import Meta from '../components/work'
+
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 
@@ -113,17 +113,33 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           My hobbies !
         </Heading>
-        <Paragraph>
-          <Meta>C#</Meta>
-          <Meta>Python</Meta>
-          <Meta>HTML/CSS</Meta>
-          <Meta>PHP</Meta>
-          <Meta>SQL</Meta>
-          <Meta>(learning) JS</Meta>
-          <Meta>OCAML</Meta>
-          <Meta>Bootstrap</Meta>
+          <List>
+            <ListItem>
+              C#
+            </ListItem>
+            <ListItem>
+              Python
+            </ListItem>
+            <ListItem>
+              HTML/CSS
+            </ListItem>
+            <ListItem>
+              PHP
+            </ListItem>
+            <ListItem>
+              SQL
+            </ListItem>
+            <ListItem>
+              (learning) JS
+            </ListItem>
+            <ListItem>
+              OCAML
+            </ListItem>
+            <ListItem>
+              Bootstrap
+            </ListItem>
+          </List>
 
-        </Paragraph>
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
