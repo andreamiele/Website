@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 
 
@@ -88,6 +88,10 @@ const Home = () => (
           Born in Belfort, France.
         </BioSection>
         <BioSection>
+          <BioYear>2018</BioYear>
+          Baccalauréat S - Bio : 17.89/20
+        </BioSection>
+        <BioSection>
           <BioYear>2021</BioYear>
           Completed the Bachelor&apos;s Program in the Lycée aux Lazaristes - Lyon.
         </BioSection>
@@ -106,21 +110,21 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          My hobbies !
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+          Photography, Art, Computer Science, Sport (judo, running,...), Music{' '}
           {/*<Link href="https://illust.odoruinu.net/" target="_blank">
             Drawing
           </Link> */}
 
-            Photography, Machine Learning, Judo
+
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Me, on the web
         </Heading>
         <List>
           <ListItem>
@@ -145,11 +149,22 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/andrea-miele-9b2188210/" target="_blank">
+              <Button
+                  variant="ghost"
+                  colorScheme="pink"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                Andrea MIELE
+              </Button>
+            </Link>
+          </ListItem>
         </List>
 
         <Box align="center" my={4}>
           <NextLink href="/posts">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="black">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="grey">
               Popular posts
             </Button>
           </NextLink>
