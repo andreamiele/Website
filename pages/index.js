@@ -113,7 +113,8 @@ const Home = () => (
       <Heading as="h3" variant="section-title">
         Tech knowledge
       </Heading>
-      <Paragraph>
+
+      <ListItem>
         <Meta>HTML/CSS</Meta>
         <Meta>C#</Meta>
         <Meta>Python 3</Meta>
@@ -122,7 +123,8 @@ const Home = () => (
         <Meta>OCAML</Meta>
         <Meta>JS (learning)</Meta>
         <Meta>Bootstrap</Meta>
-      </Paragraph>
+      </ListItem>
+
 
       <Box align="center" my={4}>
         <NextLink href="/works">
