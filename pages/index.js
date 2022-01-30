@@ -17,8 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import {Meta} from "../components/work";
-
+import Meta from '../../components/work'
 
 
 const Home = () => (
@@ -109,33 +108,22 @@ const Home = () => (
         </NextLink>
       </Box>
 
-      <Section delay={0.1}>
-      <Heading as="h3" variant="section-title">
-        Tech knowledge
-      </Heading>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          My hobbies !
+        </Heading>
+        <Paragraph>
+          <Meta>C#</Meta>
+          <Meta>Python</Meta>
+          <Meta>HTML/CSS</Meta>
+          <Meta>PHP</Meta>
+          <Meta>SQL</Meta>
+          <Meta>(learning) JS</Meta>
+          <Meta>OCAML</Meta>
+          <Meta>Bootstrap</Meta>
 
-      <ListItem>
-        <Meta>HTML/CSS</Meta>
-        <Meta>C#</Meta>
-        <Meta>Python 3</Meta>
-        <Meta>SQL</Meta>
-        <Meta>PHP</Meta>
-        <Meta>OCAML</Meta>
-        <Meta>JS (learning)</Meta>
-        <Meta>Bootstrap</Meta>
-      </ListItem>
-
-
-      <Box align="center" my={4}>
-        <NextLink href="/works">
-          <Button rightIcon={<ChevronRightIcon />} colorScheme="yellow">
-            My portfolio
-          </Button>
-        </NextLink>
-      </Box>
-
-    </Section>
-
+        </Paragraph>
+      </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           My hobbies !
