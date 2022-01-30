@@ -68,7 +68,7 @@ const Home = () => (
           I am an ingeneer student in cognitive and computer science based in Bordeaux with a
           passion for building digital services/stuff. I have a knack in finding
           way to solve real-life problems with code. When not online, I love
-          making photography and judo.
+          making photography and judo. :)
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
