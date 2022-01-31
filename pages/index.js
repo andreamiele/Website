@@ -111,34 +111,28 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          My hobbies !
+          My Tech !
         </Heading>
-          <List>
-            <ListItem>
+
+        <Paragraph>
+
               C#
-            </ListItem>
-            <ListItem>
+
               Python
-            </ListItem>
-            <ListItem>
+
               HTML/CSS
-            </ListItem>
-            <ListItem>
+
               PHP
-            </ListItem>
-            <ListItem>
+
               SQL
-            </ListItem>
-            <ListItem>
+
               (learning) JS
-            </ListItem>
-            <ListItem>
+
               OCAML
-            </ListItem>
-            <ListItem>
+
               Bootstrap
-            </ListItem>
-          </List>
+        </Paragraph>
+
 
       </Section>
       <Section delay={0.3}>
