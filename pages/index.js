@@ -29,7 +29,7 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.500', 'yellowAlpha.200')}
       >
         Hello, I&apos;m a junior developer based in France :)!
       </Box>
@@ -98,7 +98,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          Engineer student in ENSC - Bordeaux.
+          Engineering student at ENSC - Bordeaux.
         </BioSection>
       </Section>
       <Box align="center" my={4}>
