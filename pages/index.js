@@ -29,7 +29,7 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'yellowAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.500', 'yellow')}
       >
         Hello, I&apos;m a junior developer based in France :)!
       </Box>
