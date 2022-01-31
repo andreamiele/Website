@@ -116,19 +116,19 @@ const Home = () => (
 
         <Paragraph>
 
-              C#
+              C#,
 
-              Python
+              Python,
 
-              HTML/CSS
+              HTML/CSS,
 
-              PHP
+              PHP,
 
-              SQL
+              SQL,
 
-              (learning) JS
+              (learning) JS,
 
-              OCAML
+              OCAML,
 
               Bootstrap
         </Paragraph>
