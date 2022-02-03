@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', '#ffeaa7')}
         color={useColorModeValue('black', 'black')}
       >
-        Hello, I&apos;m a junior developer based in France :)!
+        Hello, I&apos;m a CS and Cognitive student based in France :)!
       </Box>
 
       <Box display={{ md: 'flex' }}>
